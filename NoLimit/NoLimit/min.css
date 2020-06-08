@@ -74,8 +74,8 @@ h4 {
 }
 ul {
   font-size: 35px;
-  width: 800px;
-  top: 250px;
+  width: 860px;
+  top: 14%;
   left: calc(50% + 20px);
   position: absolute;
   z-index: 100;
@@ -95,7 +95,7 @@ li {
 }
 .foottext {
   font-size: 27px;
-  width: 1103px;
+  width: 95%;
   height: 250px;
   margin: 0 auto;
   padding: 10px;
