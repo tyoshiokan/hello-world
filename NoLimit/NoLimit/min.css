@@ -38,6 +38,19 @@ img {
   margin-top: 100px;
   padding-bottom: 80px;
 }
+.midtext {
+  font-size: 27px;
+  width: 95%;
+  height: 250px;
+  margin: 0 auto;
+  padding: 50px;
+  margin-top: -80px;
+  text-align: center;
+  position: relative;
+  background: rgba(255,255,255,0.77);
+  border: solid 4px #186AA5;
+  border-radius: 30px;
+}
 .under {
   font-size: 38px;
   display: flex;
@@ -70,7 +83,7 @@ h3 {
 }
 h4 {
   font-size: 5px;
-  color: #186AA5;
+  color: #333333;
 }
 ul {
   font-size: 35px;
@@ -118,3 +131,141 @@ li {
 span {
   line-height: 50px
 }
+@media screen and (max-width:1000px) {
+  ul {
+    width: 80%;
+  }
+  .foottext {
+    margin-top: 0;
+    height:auto;
+    padding: 25px 0;
+  }
+  .foottext p{
+    line-height: 35px;
+  }
+}
+@media screen and (max-width:785px){
+  .midtext {
+    height: 150px;
+    font-size: 22px;
+    margin-top: -60px;
+    margin: -50px auto;
+    padding: 25px;
+  }
+  h3 {
+    font-size: 34px;
+    padding-left:0;
+  }
+  ul {
+    font-size: 34px;
+  }
+  .foottext {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width:730px){
+  h3 {
+    font-size: 30px;
+  }
+  ul{
+    font-size: 28px;
+  }
+  li{
+    padding: 4px;
+  }
+  .midtext{
+    height: 180px;
+  }
+  h1{
+    font-size: 30px;
+  }
+  .hititumecyan {
+    width: 160px;
+  }
+  .under::after {
+    height: 210px;
+  }
+}
+@media screen and (max-width:610px){
+  ul{
+    font-size: 26px;
+  }
+  li {
+    padding: 2px;
+  }
+}
+@media screen and (max-width:555px){
+  .topconcept{
+    padding-top: 40px;
+  }
+  .midtext{
+    padding: 19px;
+  }
+  ul{
+    top:0;
+  }
+  h3{
+    padding-left: 10px;
+    font-size: 32px;
+  }
+  .midtext{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:465px){
+  ul {
+    font-size: 24px;
+  }
+  .midtext{
+    margin: -40px auto;
+  }
+  .foottext {
+    font-size: 20px;
+  }
+  li {
+    padding: 1px;
+  }
+  ul {
+    top: -10px;
+  }
+}
+@media screen and (max-width:430px){
+  .midtext {
+    padding: 13px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  ul {
+    font-size: 22px;
+  }
+  .foottext {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width:410px){
+  h3 {
+    font-size: 25px;
+  }
+  .midtext {
+    padding: 7px;
+  }
+  height: 180px;
+}
+@media screen and (max-width:400px){
+  .midtext {
+    padding: 3px;
+    height: 188px;
+  }
+  ul {
+    font-size: 20px;
+  }
+  .hititumecyan {
+    width: 150px;
+  }
+  .midconcept{
+    padding: 0 20px 30px 24px;
+  }
+}
+
+
