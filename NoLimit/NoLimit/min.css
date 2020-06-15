@@ -10,6 +10,9 @@
 img {
   width: 100%;
 }
+.pc { display: block !important; }
+.sp { display: none !important; }
+
 .concept {
   background-color: #E8E8E8;
 }
@@ -195,6 +198,10 @@ span {
   }
 }
 @media screen and (max-width:555px){
+  .title {
+  }
+  .title img {
+  }
   .topconcept{
     padding-top: 40px;
   }
@@ -211,6 +218,10 @@ span {
   .midtext{
     font-size: 20px;
   }
+}
+@media only screen and (max-width:550px) {
+.pc { display: none !important; }
+.sp { display: block !important; }
 }
 @media screen and (max-width:465px){
   ul {
