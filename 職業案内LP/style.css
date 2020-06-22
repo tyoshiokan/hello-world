@@ -186,34 +186,54 @@ span {
     margin: 0;
     font-size: 16px;
   }
+  .maru{
+   flex-direction: column;
+    display: block;
+    margin: 70px auto;
+  }
   .marucenter {
     font-size: 31px;
-    height: 80px;
-    line-height: 40px;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    margin-right: 0;
   }
   .maruright{
-    line-height: 70px;
-    height: 80px;
+    line-height: 150px;
+    width: 150px;
+    height: 150px;
   }
   .maruleft{
-    height: 80px; 
-    line-height: 70px;
+    width: 150px;
+    height: 150px; 
+    line-height: 150px;
+    margin-right: 0;
+  }
+  .card img {
+    width: 280px;
+  }
+  .mid_img {
+    width: 150px;
   }
   .hb{
     line-height: 40px;
     font-size: 31px;
   }
   .mid3{
-    margin: 0;
+    margin: 70px auto;
     font-size: 18px;
+    width: 400px;
   }
   .foottext{
-    margin: 0;
+    margin: 0 auto;
+    width: 390px;
   }
   .foottext2 {
     font-size: 20px;
-    margin-left: 20px;
+    margin: 30px auto;
+    width: 80%;
     line-height: 40px;
+ 
   }
   .outer{
     margin-top: 0;
@@ -231,7 +251,6 @@ span {
   .outer:before{
         height: 130px;
   }
-  
 }
 
 @media screen and (max-width:450px){
