@@ -2,15 +2,7 @@
   margin: 0;
   padding: 0;
 }
-.header {
-  width: 100%;
-  height: 200px;
-  background-color: #C8E9F5;
-  transform: skewY(5deg);
-  position: absolute;
-  top: -90px;
-  z-index: -9999;
-}
+
 .header span {
   
 }
@@ -18,21 +10,8 @@
   transform: skewY(-6deg);
 }
 .top {
-  /*margin: auto;*/
-  display: flex;
   width: 100%;
   /*justify-content: space-between;*/
-}
-.top > span{
-  font-family: "M PLUS 1p";
-  width: calc(25% / 2);
-  writing-mode: vertical-rl;
-  text-align: center;
-  font-size: 100px;
-  line-height: calc(25vw / 2);
-  /*letter-spacing: 25px;*/
-  font-weight: bolder;
-  margin-top: 55px;
 }
 .topright {
   z-index: 1;
@@ -41,17 +20,16 @@
   z-index: 1;
 }
 .top img {
-  width: 70%;
-  display: block;
-  margin: auto;
-  margin-top: 180px;
+  width: 100%;
+  height: auto;
 }
 .min {
   display: flex;
   margin: 100px;
+  font-family: "Sawarabi Mincho";
 }
 .mintext {
-  font-family: "Sawarabi Mincho";
+
 }
 span {
   font-size: 24px;
@@ -60,12 +38,14 @@ span {
 .boldfont {
   font-size: 37px;
   font-weight: bolder;
+  font-family: "M PLUS 1p";
 }
 .fontcolor {
-  color: #FF7600;
+  color: #6b58ce;
 }
 .bigfont {
   font-size: 35px;
+  font-weight: bold;
 }
 .minimg {
   margin-top: 200px;
@@ -79,7 +59,9 @@ span {
   margin: 28%;
 }
 .mid3 {
-  margin: 8%;
+  margin: 0 auto;
+  display: block;
+  width: 900px;
 }
 .maru {
   display: flex;
@@ -89,256 +71,82 @@ span {
 }
 .maruleft {
   display: inline-block;
-  width: 300px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
-  border: 4px solid #1FAECD;
   text-align:center;
-  line-height: 100px;
+  line-height: 200px;
   font-family: "M PLUS 1p";
   font-weight: bolder;
   font-size: 41px;
+  margin-right: 100px;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, .2);
+  color: cornflowerblue;
 }
 .marucenter {
   display: inline-block;
-  width: 300px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
-  border: 4px solid #1FAECD;
   text-align:center;
-  line-height: 100px;
+  line-height: 200px;
   font-family: "M PLUS 1p";
   font-weight: bolder;
   font-size: 41px;
+  margin-right: 100px;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, .2);
+  color: cornflowerblue;
 }
 .maruright {
   display: inline-block;
-  width: 300px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
-  border: 4px solid #1FAECD;
   text-align:center;
-  line-height: 118px;
+  line-height: 200px;
   font-weight: bolder;
   font-family: "M PLUS 1p";
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, .2);
+  color: cornflowerblue;
+  font-size: 41px;
 }
 .hb {
   font-size: 40px; 
 }
-.slideshow {
-	position: relative;
-	overflow: hidden;
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+
+.card {
+  margin: 0 auto;
+  margin-top: 5%;
+  padding: 5px 30px;
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+  background-color: #fff;
 }
-input[name="slideshow"] {
-	display: none;
+.card img {
+  width: 900px;
+  display: block;
+  margin: 0 auto;
 }
-
-/* :::::: slideContents :::::: */
-*{box-sizing: border-box; -webkit-box-sizing: border-box; }
-html, body { height: 100%; }
-body { margin: 0; font: 16px/1.3 sans-serif; }
-
-/*
-PURE RESPONSIVE CSS3 SLIDESHOW GALLERY by Roko C. buljan
-http://stackoverflow.com/a/34696029/383904
-*/
-
-.CSSgal {
-    position: relative;
-    overflow: hidden;
+.mid_img{
+  display: block;
+  width: 500px;
+  margin: 20px auto;
 }
-
-/* SLIDER */
-
-.CSSgal .slider {
-    height: auto;
-    white-space: nowrap;
-    transition: 0.8s;
-}
-
-/* SLIDES */
-
-.CSSgal .slider > * {
-    font-size: 1rem;
-    display: inline-block;
-    white-space: normal;
-    vertical-align: top;
-    height: 100%;
-    width: 100%;
-    background: none 50% no-repeat;
-    background-size: cover;
-}
-
-/* PREV/NEXT, CONTAINERS & ANCHORS */
-
-.CSSgal .prevNext {
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    width: 100%;
-    height: 0;
-}
-
-.CSSgal .prevNext > div+div {
-    visibility: hidden; /* Hide all but first P/N container */
-}
-
-.CSSgal .prevNext a {
-    background: #3c3c3c;
-    position: absolute;
-    width:       60px;
-    height:      60px;
-    line-height: 60px; /* If you want to place numbers */
-    text-align: center;
-    opacity: 0.7;
-    -webkit-transition: 0.3s;
-                    transition: 0.3s;
-    -webkit-transform: translateY(-50%);
-                    transform: translateY(-50%);
-    left: 0;
-}
-.CSSgal .prevNext a:hover {
-    opacity: 1;
-}
-.CSSgal .prevNext a+a {
-    left: auto;
-    right: 0;
-}
-.slider img {
-    width: 100%;
-    height: 100%;
-}
-/* NAVIGATION */
-
-.CSSgal .bullets {
-    position: absolute;
-    z-index: 2;
-    bottom: 0;
-    padding: 10px 0;
-    width: 100%;
-    text-align: center;
-}
-.CSSgal .bullets > a {
-    display: inline-block;
-    width:       30px;
-    height:      30px;
-    line-height: 30px;
-    text-decoration: none;
-    text-align: center;
-    background: rgba(255, 255, 255, 1);
-    -webkit-transition: 0.3s;
-                    transition: 0.3s;
-}
-.CSSgal .bullets > a+a {
-    background: rgba(255, 255, 255, 0.5); /* Dim all but first */
-}
-.CSSgal .bullets > a:hover {
-    background: rgba(255, 255, 255, 0.7) !important;
-}
-
-/* NAVIGATION BUTTONS */
-/* ALL: */
-.CSSgal >s:target ~ .bullets >* {      background: rgba(255, 255, 255, 0.5);}
-/* ACTIVE */
-#s1:target ~ .bullets >*:nth-child(1) {background: #cdf2ff;}
-#s2:target ~ .bullets >*:nth-child(2) {background: #cdf2ff;}
-#s3:target ~ .bullets >*:nth-child(3) {background: #cdf2ff;}
-/* More slides? Add here more rules */
-
-/* PREV/NEXT CONTAINERS VISIBILITY */
-/* ALL: */
-.CSSgal >s:target ~ .prevNext >* {      visibility: hidden;}
-/* ACTIVE: */
-#s1:target ~ .prevNext >*:nth-child(1) {visibility: visible;}
-#s2:target ~ .prevNext >*:nth-child(2) {visibility: visible;}
-#s3:target ~ .prevNext >*:nth-child(3) {visibility: visible;}
-/* More slides? Add here more rules */
-
-/* SLIDER ANIMATION POSITIONS */
-
-#s1:target ~ .slider {transform: translateX(   0%); -webkit-transform: translateX(   0%);}
-#s2:target ~ .slider {transform: translateX(-100%); -webkit-transform: translateX(-100%);}
-#s3:target ~ .slider {transform: translateX(-200%); -webkit-transform: translateX(-200%);}
-/* More slides? Add here more rules */
-
-
-
-.CSSgal{
-    color: #fff;    
-    text-align: center;
-}
-.CSSgal .slider h2 {
-    margin-top: 40vh;
-    font-weight: 200;
-    letter-spacing: -0.06em;
-    word-spacing: 0.2em;
-    font-size: 3em;
-}
-.CSSgal a {
-    border-radius: 50%;
-    margin: 0 3px;
-    color: rgba(0,0,0,0.8);
-    text-decoration: none;
-}
-
-
-
 
 .foottext {
-  margin: 100px 0 -40px 300px;
+  margin: 100px auto;
   font-size: 30px;
+  width: 900px;
 }
 .foottext2 {
 }
-.outer{
-    overflow: hidden;
-    padding: calc(120vw * 0.12) 0;
-    position: relative;
-  margin-top: -200px;
-}
-.outer:before{
-    background: #C8E9F5;
-    content: '';
-    position: absolute;
-    transform-origin: center;
-    transform: rotate(5deg);
-    width: 150vw;
-    height: calc(100% - 0.11 * (0.11 * 50% + 60vw) * 2);
-    left: -50vw;
-    z-index: -1;
-    bottom: -30px;
-}
-.btn-circle-flat {
-  display: inline-block;
-  text-decoration: none;
-  background: #F5B421;
-  color: #707070;
-  width: 350px;
-  height: 350px;
-  line-height: 280px;
-  border-radius: 50%;
-  text-align: center;
-  overflow: hidden;
-  transition: .4s;
-  float: right;
-  margin: 0 -80px -340px 0;
 
-  font-weight: bolder;
-  -webkit-text-stroke: 1px #000;
-  text-stroke: 1px #000;
-}
-
-.btn-circle-flat:hover {
-  background: #668ad8;
-}
-.btntext {
-  font-size: 40px;
-  margin-right: 60px;
-}
 
 @media screen and (max-width:465px){
   .top {
-    height: 450px;
+
   }
   .top > span {
     font-size: 40px;
@@ -381,13 +189,15 @@ http://stackoverflow.com/a/34696029/383904
   .marucenter {
     font-size: 31px;
     height: 80px;
+    line-height: 40px;
   }
   .maruright{
-    line-height: 40px;
+    line-height: 70px;
     height: 80px;
   }
   .maruleft{
-    height: 80px;    
+    height: 80px; 
+    line-height: 70px;
   }
   .hb{
     line-height: 40px;
@@ -396,10 +206,6 @@ http://stackoverflow.com/a/34696029/383904
   .mid3{
     margin: 0;
     font-size: 18px;
-  }
-  .slideContents section img{
-    padding: 0;
-    margin-top: 20px;
   }
   .foottext{
     margin: 0;
@@ -426,14 +232,6 @@ http://stackoverflow.com/a/34696029/383904
         height: 130px;
   }
   
-}
-@media screen and (max-width:465px){
-   .maruleft{
-     font-size: 30px;
-  }
-   .marucenter{
-     font-size: 27px;
-   }
 }
 
 @media screen and (max-width:450px){
