@@ -412,6 +412,9 @@ a.btn-line:hover {
 }
 
 @media screen and (max-width: 510px) {
+  .site-header {
+    display: flex;
+  }
   .topnav-menu {
     margin: 3px 36px;
     margin-top: 0px;

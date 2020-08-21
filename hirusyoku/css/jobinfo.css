@@ -314,10 +314,8 @@ padding: .4em 1.2em;
 border-bottom: 1px dotted #3F51B5;
 }
 .my-parts ul li:last-child a {
-border: none;
+  border: none;
 }
-
-
 
 .j-con {
   text-align: center;
@@ -665,6 +663,9 @@ table {
 }
 
 @media screen and (max-width: 510px) {
+  .site-header {
+    display: flex;
+  }
   .topnav-menu {
     margin: 3px 36px;
     margin-top: 0px;

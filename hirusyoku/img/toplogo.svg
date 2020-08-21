@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="127.23" height="70" viewBox="0 0 127.23 70">
   <g id="グループ_57" data-name="グループ 57" transform="translate(630.806 -245)">
-    <text id="キャリア" transform="translate(-569 269)" fill="#ffbc00" font-size="27" font-family="VDL-LogoJrBlack-Black, VDL ロゴJrブラック" font-weight="800"><tspan x="-54" y="0">キャリア</tspan></text>
-    <text id="wave" transform="translate(-568 312)" fill="#ffbc00" font-size="28" font-family="VDL-LogoJrBlack-Black, VDL ロゴJrブラック" font-weight="800"><tspan x="-49.364" y="0">wave</tspan></text>
+    <text id="キャリア" transform="translate(-569 269)" fill="#ffbc00" font-size="27" font-family="vdl-logojrblack, sans-serif" font-style= "normal" font-weight="900"><tspan x="-54" y="0">キャリア</tspan></text>
+    <text id="wave" transform="translate(-568 312)" fill="#ffbc00" font-size="28" font-family="vdl-logojrblack, sans-serif" font-style= "normal" font-weight="900"><tspan x="-49.364" y="0">wave</tspan></text>
     <g id="グループ_56" data-name="グループ 56" transform="translate(-630.806 276.495)">
       <path id="パス_59" data-name="パス 59" d="M43.316,3.864c12.942,0,24.1,5.2,37.928,5.151,22.408-.082,44.3-6.537,44.3-4.99,0,1.53-19.89,9.118-42.527,10.088-13.468.577-34.021-6.846-47.206-6.846-34.6,0-37.5,8.144-37.5,5.673S8.713,3.864,43.316,3.864Z" transform="translate(1.687 -3.786)" fill="#ffbc00"/>
       <path id="パス_60" data-name="パス 60" d="M56.165,7.67C72.722,7.609,88.9,2.84,88.9,3.983S74.2,10.334,57.469,11.05c-9.951.426-30.032-5.241-30.032-7.067S45.945,7.708,56.165,7.67Z" transform="translate(25.319 4.026)" fill="#ffd86f"/>
