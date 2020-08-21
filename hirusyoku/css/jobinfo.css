@@ -29,6 +29,7 @@ body {
   justify-content: space-around;
   width: 100%;
   top: 0%;
+  z-index: 1000;
 }
 .site-logo img{
   height: 70px;;
@@ -321,11 +322,11 @@ border: none;
 .j-con {
   text-align: center;
   font-size: 24px;
-  margin: 0 100px;
-  margin-top: 100px;
+  margin: 0 30px;;
+  margin-top: 300px;
 }
 .job-wrap {
-  margin-left: 60px;
+  
 }
 
 .jobwp {
@@ -339,7 +340,7 @@ border: none;
 }
 .job-tx {
   margin: 100px auto;
-  width: 50%;
+  width: 100%;
 }
 .job-rec {
   margin: 100px auto;
@@ -530,6 +531,10 @@ table td{
   .job-rec {
     margin: 100px 0 0 70px;
   }
+  .job-tx {
+    margin: 100px 30px;
+    width: unset;
+  }
 }
 
 @media screen and (max-width: 835px) {
@@ -654,17 +659,21 @@ table td{
 
 }
 table {
-  width: 80%;
+  margin: 30px;
+  width: unset;
 }
 }
 
 @media screen and (max-width: 510px) {
   .topnav-menu {
-    margin: 33px 36px;
-    margin-top: 70px;
+    margin: 3px 36px;
+    margin-top: 0px;
     flex-direction: column;
     text-align: center;
   }
+  .topnav-menu-item {
+    margin-left: 0;
+}
   .job-tb {
 
 }
@@ -676,7 +685,7 @@ table {
 
 }
 table {
-  width: 50%;
+  
 }
 .lineup-card {
   width: 340px;

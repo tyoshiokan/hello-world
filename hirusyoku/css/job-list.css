@@ -519,7 +519,7 @@ td {
   }
   .topnav-menu {
     margin: 0 14%;
-    margin-top: 70px;
+    margin-top: 0px;
   }
   .qatx {
       margin-top: 0px;
@@ -563,8 +563,8 @@ td {
 
 @media screen and (max-width: 510px) {
   .topnav-menu {
-    margin: 33px 36px;
-    margin-top: 70px;
+    margin: 3px 36px;
+    margin-top: 0px;
     flex-direction: column;
     text-align: center;
   }
@@ -575,6 +575,9 @@ td {
   .top-main{
     padding-top: 310px;
   }
+  .topnav-menu-item {
+    margin-left: 0;
+}
 }
 
 @media screen and (max-width: 448px) {

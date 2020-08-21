@@ -24,7 +24,6 @@ body {
   background: #fff;
   display: flex;
   padding: 0px 20px;
-  padding-top: 20px;
   position: fixed;
   justify-content: space-around;
   width: 100%;
@@ -66,7 +65,7 @@ a.btn-line:hover {
   }
   @media screen and (max-width: 480px) {
     .Form {
-      margin-top: 40px;
+      margin-top: 10px;
     }
   }
   .Form-Item {
@@ -201,7 +200,7 @@ a.btn-line:hover {
       font-size: 16px;
     }
     .Form {
-      padding-top: 310px;
+      padding-top: 230px;
     }
   }
 
@@ -414,11 +413,14 @@ a.btn-line:hover {
 
 @media screen and (max-width: 510px) {
   .topnav-menu {
-    margin: 33px 36px;
-    margin-top: 70px;
+    margin: 3px 36px;
+    margin-top: 0px;
     flex-direction: column;
     text-align: center;
   }
+  .topnav-menu-item {
+    margin-left: 0;
+}
   
 }
 
