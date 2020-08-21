@@ -23,13 +23,14 @@ body {
 .site-header{
     background: #fff;
     display: flex;
-    padding: 30px 20px;
+    padding: 0px 20px;
+    padding-top: 20px;
     position: fixed;
     justify-content: space-around;
     width: 100%;
 }
 .site-logo img{
-    height: 20px;
+    height: 70px;;
     width: auto;
 }
 .topnav-menu{
