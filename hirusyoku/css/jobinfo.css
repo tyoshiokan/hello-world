@@ -315,7 +315,7 @@ border: none;
 
 
 .jobin {
-  display: flex;
+
 }
 
 
@@ -329,17 +329,21 @@ border: none;
   margin-left: 60px;
 }
 
+.jobwp {
+  width: 100%;
+}
+
 .job-tb {
-  float: left;
-  width: 600px;
-  margin: 190px;
+  width: 100%;
+  margin: 100px auto;
+
 }
 .job-tx {
-  margin: 100px 0 0 130px;
+  margin: 100px auto;
   width: 50%;
 }
 .job-rec {
-  margin: 100px 0 0 130px;
+  margin: 100px auto;
   width: 190px;
   background: #FFBA00;
   font-size: 18px;
@@ -502,8 +506,7 @@ table td{
     margin-left: 52px;
   }
   .job-tb {
-    margin-left: 130px;
-    width: 530px;
+
   }
 
 }
@@ -542,7 +545,7 @@ table td{
       display: table;
   }
   .qatx {
-      margin-top: 20%;
+
   }
   .svgq {
       width: 100%;
@@ -557,15 +560,14 @@ table td{
     margin-top: 90px;
   }
   .job-tx {
-    margin: 100px 0 0 80px;
-    width: 70%;
+
 }
 
 }
 
 @media screen and (max-width: 779px) {
   .qatx {
-      margin-top: 10%;
+
   }
   .card-left {
       margin: 20px;
@@ -600,7 +602,7 @@ table td{
     margin-left: 22px;
   }
   .job-tb {
-    margin-left: 90px;
+
   }
 }
 @media screen and (max-width: 651px) {
@@ -626,12 +628,12 @@ table td{
       height: 570px;
   }
   .job-tb {
-    margin-left: 60px;
+
 }
 }
 @media screen and (max-width: 600px) {
   .job-tb {
-    margin-left: 40px;
+
   }
 }
 
@@ -653,7 +655,7 @@ table td{
   min-width: 430px;
 }
 .job-tb {
-  margin-left: 66px;
+
 }
 table {
   width: 80%;
@@ -668,14 +670,14 @@ table {
     text-align: center;
   }
   .job-tb {
-    margin-left: 126px;
+
 }
 .btn--mail, a.btn--mail {
   margin-top: 200px;
 }
 .job-tx {
-  margin: 100px 0 0 20px;
-  width: 80%;
+
+
 }
 table {
   width: 50%;
@@ -687,7 +689,7 @@ table {
 }
 @media screen and (max-width: 467px) {
   .job-tb {
-    margin-left: 95px;
+
 }
 }
 @media screen and (max-width: 448px) {
@@ -706,21 +708,21 @@ table {
       min-width: 310px;
   }
   .job-tb {
-    margin-left: 97px;
+
 }
 
 }
 @media screen and (max-width: 434px) {
   .job-tb {
-    margin-left: 85px;
+
   }
   .btn--mail, a.btn--mail {
-    margin-top: 260px;
+    margin-top: 320px;
   }
 }
 @media screen and (max-width: 400px) {
   .job-tb {
-    margin-left: 68px;
+
 }
 .lineup-card {
   width: 300px;

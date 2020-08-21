@@ -57,7 +57,7 @@ a.btn-line:hover {
     opacity: 0.7;
 }
 .top-img {
-    background: url(/img/3328286_m.jpg);
+    background: url(../img/3328286_m.jpg);
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -74,7 +74,7 @@ a.btn-line:hover {
 }
 
 .main-gl {
-    background-image: url(/img/maing.svg);
+    background-image: url(../img/maing.svg);
     width: 100%;
     height: 100%;
     text-align: center;
@@ -317,7 +317,7 @@ a.btn--i line:hover {
     border-radius: 30px;
     box-shadow: 0 3px 6px #ccc;
     text-align: center;
-    background: url(/img/2112323.jpg);
+    background: url(../img/2112323.jpg);
 }
 .card-right2 {
     width: 340px;
@@ -326,7 +326,7 @@ a.btn--i line:hover {
     border-radius: 30px;
     box-shadow: 0 3px 6px #ccc;
     text-align: center;
-    background: url(/img/143245.jpg);
+    background: url(../img/143245.jpg);
 }
 .content3 {
     color: #FFB100;
@@ -357,7 +357,11 @@ a.btn--i line:hover {
 .svg {
     width: 100%;
     max-width: 890px;
+    flex-direction: column;
+    display: flex;
+    margin: 0 auto;
 }
+
 .svgq {
     width: 100%;
     min-width: 600px;
@@ -366,11 +370,12 @@ a.btn--i line:hover {
     text-align: center;
 }
 .job-flow {
-    background-image: url(/img/org.svg);
+    background-image: url(../img/org.svg);
     margin-top: 10px;
     width: 100%;
     height: 1491px;
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 .jf-con {
     text-align: center;
@@ -387,7 +392,7 @@ a.btn--i line:hover {
 
 .qatx {
     margin-top: 280px;
-    background: url(/img/saoek.svg);
+    background: url(../img/saoek.svg);
     background-position: center;
     background-repeat: no-repeat;
     height: 50px;
@@ -429,9 +434,7 @@ a.btn--i line:hover {
         width: 100%;
         height: 940px;
     }
-    .gl-con {
-   
-    }
+
   
     .lineup-card {
         margin: 20px -70px;
@@ -559,13 +562,17 @@ a.btn--i line:hover {
     .card-right {
         margin: 20px auto;
     }
+    .content3 {
+        padding-top: 70px;
+    }
   }
   @media screen and (max-width: 713px) {
     .top-img {
-        background: url(/img/3328286_m.svg);
+        background: url(../img/3328286_m.svg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top;
+        background-position-y: 190px;
     }
     .site-header {
       display: block;
@@ -606,6 +613,11 @@ a.btn--i line:hover {
         height: 570px;
     }
   }
+  @media screen and (max-width: 610px) {
+    .qa {
+        margin-top: -190px;
+    }
+  }
   
   @media screen and (max-width: 573px) {
     .card-job5 {
@@ -623,8 +635,21 @@ a.btn--i line:hover {
   .svgq {
     width: 100%;
     min-width: 430px;
-}
   }
+  .main-gl{
+    background-size: 160%;
+    
+  }
+  }
+  @media screen and (max-width: 573px) {
+    .gl-con {
+        padding-top: 80%;
+    }
+    .qa {
+        margin-top: -280px;
+    }
+  }
+
   
   @media screen and (max-width: 510px) {
     .topnav-menu {
@@ -637,6 +662,14 @@ a.btn--i line:hover {
   }
   
   @media screen and (max-width: 448px) {
+    .cr35 {
+        font-size: 25px;
+    }
+    .gl-con > .cr28 {
+        font-size: 21px;
+    padding-top: 0px;
+    }
+
     .btn-line, a.btn-line {
       padding: 5px 9px;
     }
@@ -655,5 +688,33 @@ a.btn--i line:hover {
         width: 380px;
     height: 568px;
     }
+    .qa {
+        margin-top: -450px;
+    }
 
+  }
+  @media screen and (max-width: 410px) {
+    .card-left2 {
+        margin: 20px 30px;
+    }
+    .card-right2 {
+        margin: 20px 30px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .lineup-card {
+        width: 350px;
+        height: 598px;
+    }
+    .lineup > .cr28 {
+        margin:0;
+    }
+  }
+  @media screen and (max-width: 379px) {
+    .card-left2 {
+        margin: 20px 18px;
+    }
+    .card-right2 {
+        margin: 20px 18px;
+    }
   }
