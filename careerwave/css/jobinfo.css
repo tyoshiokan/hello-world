@@ -394,17 +394,18 @@ table td{
 
 .footer {
   background: #E2E2E2;
-  height: 220px;
+  height: 160px;
   margin-top: 150px;
 }
 .foot-nav {
   justify-content: space-evenly;
-  margin-top: 70px;
+  margin: 30px 0;
   display: flex;
   color: #8B8B8B;
 }
 .a-tx {
   color: #8B8B8B;
+  text-decoration: none;
 }
 
 
