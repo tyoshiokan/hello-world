@@ -24,34 +24,35 @@
       </nav>
   </div>
 
-  <div class="Form">
+  <Form action="./" method="post">
     <div class="Form-Item">
       <p class="Form-Item-Label">
-        <span class="Form-Item-Label-Required">必須</span>氏名
-      </p>
-      <input type="text" class="Form-Item-Input" placeholder="">
+        <span class="Form-Item-Label-Required">必須</span>氏名</p>
+      <input type="text" name="name" id="name" class="Form-Item-Input" placeholder="例）山田花子" required>
     </div>
     <div class="Form-Item">
       <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>ふりがな</p>
-      <input type="text" class="Form-Item-Input" placeholder="例）山田太郎">
+      <input type="text" name="hurigana" id="hurigana" class="Form-Item-Input" placeholder="例）ヤマダハナコ" required>
     </div>
     <div class="Form-Item">
       <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>電話番号</p>
-      <input type="text" class="Form-Item-Input" placeholder="例）000-0000-0000">
+      <input type="text" name="tel" id="tel" class="Form-Item-Input" placeholder="例）000-0000-0000" required>
     </div>
     <div class="Form-Item">
       <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>メールアドレス</p>
-      <input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com">
+      <input type="email" name="mail" id="mail" class="Form-Item-Input" placeholder="例）example@gmail.com" required>
     </div>
     <div class="Form-Item">
       <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>現在の職業</p>
-      <input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com">
+      <input type="email" name="job" id="job" class="Form-Item-Input" required>
     </div>
     <div class="Form-Item">
       <p class="Form-Item-Label isMsg"><span class="Form-Item-Label-Required">必須</span>お問い合わせ内容</p>
-      <textarea class="Form-Item-Textarea"></textarea>
+      <textarea class="Form-Item-Textarea" name="contents" id="contents" placeholder="案件番号を入力下さい" required></textarea>
     </div>
-    <input type="submit" class="Form-Btn" value="送信する">
-  </div>
+    <input type="submit" class="Form-Btn send" value="送信する">
+  </Form>
+  <script type="text/javascript" src="text.js"></script>
+  <script src="./js/jquery-3.5.1.min.js"></script>
 </body>
 </html>

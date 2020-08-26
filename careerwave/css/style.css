@@ -348,8 +348,10 @@ a.btn--i line:hover {
     margin-top: 150px;
 }
 
+/*-----------------------職業カテゴリー----------------------------*/
 .card-content-genre {
-    display: flex;
+    display: none;
+    /*display: flex;*/
     margin: 0 auto;
 }
 
