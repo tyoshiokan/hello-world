@@ -409,7 +409,9 @@ a.btn--i line:hover {
 .footer {
     background: #E2E2E2;
     width: 100%;
-    height: 200px;
+
+}
+.foot-log {
 
 }
 .foot-nav {
@@ -503,10 +505,6 @@ a.btn--i line:hover {
     .card-job5 {
       margin-left: 152px;
     }
-    .footer {
-      height: 180px;
-    }
-  
   }
   
   @media screen and (max-width: 1183px) {
@@ -539,7 +537,7 @@ a.btn--i line:hover {
     }
     .card-content-genre {
         margin: 0 auto;
-        display: table;
+        /*display: table;*/
     }
     .qatx {
         margin-top: 20%;
@@ -602,9 +600,6 @@ a.btn--i line:hover {
       width: 500px;
   
     }
-    .footer {
-      height: 120px;
-  }
     .foot-nav {
       margin-top: 30px;
     }
@@ -628,9 +623,7 @@ a.btn--i line:hover {
       width: 380px;
       margin: 0 60px;
     }
-    .footer {
-      height: 290px;
-    }
+
     .foot-nav {
       margin-top: 30px;
       flex-direction: column;
