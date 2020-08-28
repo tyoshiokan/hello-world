@@ -138,6 +138,9 @@ a.btn-line:hover {
 .wrap-cd {
   margin-left: 15%;
 }
+.job-lst {
+  width: 100%;
+}
 .lineup-card {
   width: 800px;
   height: 521px;
@@ -587,16 +590,9 @@ td {
   }
   .card-job5 {
     width: 380px;
-    margin: 0px 0px;
+    margin: 0px auto;
   }
 }
 @media screen and (max-width: 448px){
-  .card-job5 {
-    width: 346px;
-
-  }
-}
-
-@media screen and (max-width: 448px) {
 
 }

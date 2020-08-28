@@ -372,6 +372,7 @@ a.btn--i line:hover {
     margin: 0 auto;
     text-align: center;
 }
+
 .job-flow {
     background-image: url(../img/org.svg);
     margin-top: 10px;
@@ -409,14 +410,10 @@ a.btn--i line:hover {
 .footer {
     background: #E2E2E2;
     width: 100%;
-
 }
-.foot-log {
 
-}
 .foot-nav {
     justify-content: space-evenly;
-    margin: 30px 0;
     display: flex;
     color: #8B8B8B;
 }
@@ -689,8 +686,7 @@ a.btn--i line:hover {
       padding: 5px 9px;
     }
     .card-job5 {
-      width: 380px;
-      margin: 0px 20px;
+      margin: 0px auto;
     }
     .cr28 {
         margin: 40px;
