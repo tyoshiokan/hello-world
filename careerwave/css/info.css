@@ -201,6 +201,14 @@ Form {
     opacity: 0.7;
   }
 
+.send[disabled] {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+.required:before {
+    content: "【必須】"
+}
+
   @media screen and (max-width: 480px) {
     .Form-Btn {
       margin-top: 24px;
@@ -229,11 +237,8 @@ Form {
 
 
   .lineup-card {
-      margin: 20px -70px;
-      
+      margin: 20px -70px; 
   }
-
-
 }
 
 @media screen and (max-width: 1519px) {
@@ -458,3 +463,4 @@ Form {
   }
 
 }
+
