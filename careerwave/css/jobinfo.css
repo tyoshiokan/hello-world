@@ -339,6 +339,7 @@ border-bottom: 1px dotted #3F51B5;
 .job-tx {
   margin: 100px auto;
   width: 100%;
+  text-align: center;
 }
 .job-rec {
   margin: 100px auto;
@@ -393,7 +394,7 @@ table td{
 }
 
 .footer {
-  background: #E2E2E2;
+  background: #ffeab1;
   height: 160px;
   margin-top: 150px;
 }

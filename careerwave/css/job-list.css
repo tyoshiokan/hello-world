@@ -59,7 +59,6 @@ a.btn-line:hover {
 }
 
 .top-main {
-  height: 940px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -356,13 +355,12 @@ td {
 }
 
 .footer {
-  background: #E2E2E2;
+  background: #ffeab1;
   width: 100%;
-  position: absolute;/*←絶対位置*/
 }
 .foot-nav {
   justify-content: space-evenly;
-  margin: 30px 0;
+  padding-bottom: 20px;
   display: flex;
   color: #8B8B8B;
 }
