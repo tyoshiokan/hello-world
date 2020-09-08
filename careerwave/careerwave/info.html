@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="コメント" />
+    <title>hirusyoku</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/info.css">
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+
+</head>
+<body>
+  <div class="site-header">
+    <a href="./index.html"><h1 class="site-logo"><img src="./img/logo.png"></h1></a>
+    <nav class="topnav">
+        <ul class="topnav-menu">
+            <li class="topnav-menu-item"><a href="./job-list.html">お仕事を探す</a></li>
+            <li class="topnav-menu-item"><a href="./info.html">メールでお問い合わせ</a></li>
+            <li class="topnav-menu-item btn-line"><a href="https://lin.ee/iHWVL7T" class="btn-line">LINEで相談</a></li>
+        </ul>
+    </nav>
+  </div>
+
+  <Form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe_W1LS2pez69O3IZG3xPdZTXwrhI_dE2bTGet4DL769LT3HQ/formResponse" method="post">
+    <div class="Form-Item">
+      <p class="Form-Item-Label">
+        <span class="Form-Item-Label-Required">必須</span>氏名</p>
+      <input type="text" name="entry.922232726" id="name" class="Form-Item-Input" placeholder="例）山田花子" required>
+    </div>
+    <div class="Form-Item">
+      <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>ふりがな</p>
+      <input type="text" name="entry.184960914" id="furigana" class="Form-Item-Input" placeholder="例）ヤマダハナコ" required>
+    </div>
+    <div class="Form-Item">
+      <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>電話番号</p>
+      <input type="text" name="entry.1240570514" id="tel" class="Form-Item-Input" placeholder="例）000-0000-0000" required>
+    </div>
+    <div class="Form-Item">
+      <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>メールアドレス</p>
+      <input type="email" name="entry.1645114825" id="mail" class="Form-Item-Input" placeholder="例）example@gmail.com" required>
+    </div>
+    <div class="Form-Item">
+      <p class="Form-Item-Label"><span class="Form-Item-Label-Required"></span>現在の職業</p>
+      <input type="text" name="entry.1103425522" id="job" class="Form-Item-Input">
+    </div>
+    <div class="Form-Item">
+      <p class="Form-Item-Label isMsg"><span class="Form-Item-Label-Required">必須</span>お問い合わせ内容</p>
+      <textarea type="text" class="Form-Item-Textarea" name="entry.87867787" id="contents" placeholder="案件番号を入力下さい" required></textarea>
+    </div>
+    <input type="submit" id="button" class="Form-Btn send" value="送信する">
+  </Form>
+  
+  
+  <script src="./js/text.js"></script>
+  <script src="./js/jquery-3.5.1.min.js"></script>
+</body>
+</html>
