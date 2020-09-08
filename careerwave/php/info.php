@@ -14,10 +14,12 @@ $content = "";
 $content .= $request_param['name']. "様\r\n";
 $content .= "お問い合わせ、ありがとうございます。\r\n";
 $content .= "=================================\r\n";
-$content .= "お名前　 　　　　　　" . htmlspecialchars($request_param['name'])."\r\n";
-$content .= "メールアドレス　 　　" . htmlspecialchars($request_param['mail'])."\r\n";
-$content .= "お問い合わせ内容　 　" . htmlspecialchars($request_param['content'])."\r\n";
-$content .= "お問い合わせ日時　 　" . $request_datetime."\r\n";
+$content .= "氏名" . htmlspecialchars($request_param['name'])."\r\n";
+$content .= "ふりがな" . htmlspecialchars($request_param['furigana'])."\r\n";
+$content .= "電話番号" . htmlspecialchars($request_param['tel'])."\r\n";
+$content .= "メールアドレス" . htmlspecialchars($request_param['mail'])."\r\n";
+$content .= "お問い合わせ内容" . htmlspecialchars($request_param['contents'])."\r\n";
+$content .= "お問い合わせ日時" . $request_datetime."\r\n";
 $content .= "=================================\r\n";
 
 //管理者確認用メール
@@ -25,10 +27,12 @@ $subject2 = "お問い合わせがありました。";
 $content2 = "";
 $content2 .= "お問い合わせがありました。\r\n";
 $content2 .= "=================================\r\n";
-$content2 .= "お名前　 　　　　　" . htmlspecialchars($request_param['name'])."\r\n";
-$content2 .= "メールアドレス　 　" . htmlspecialchars($request_param['mail'])."\r\n";
-$content2 .= "お問い合わせ内容　 " . htmlspecialchars($request_param['content'])."\r\n";
-$content2 .= "お問い合わせ日時   " . $request_datetime."\r\n";
+$content .= "氏名" . htmlspecialchars($request_param['name'])."\r\n";
+$content .= "ふりがな" . htmlspecialchars($request_param['furigana'])."\r\n";
+$content .= "電話番号" . htmlspecialchars($request_param['tel'])."\r\n";
+$content .= "メールアドレス" . htmlspecialchars($request_param['mail'])."\r\n";
+$content .= "お問い合わせ内容" . htmlspecialchars($request_param['contents'])."\r\n";
+$content .= "お問い合わせ日時" . $request_datetime."\r\n";
 $content2 .= "================================="."\r\n";
 
 mb_language("ja");
@@ -49,5 +53,4 @@ if(mb_send_mail($to, $subject2, $content2, $mailfrom)){
 } else {
 echo "メールの送信に失敗しました（トークンエラー）";
 }
-
 ?>
