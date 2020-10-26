@@ -309,7 +309,6 @@ border: none;
   box-sizing: border-box;
   width: 600px;
   margin: 50px auto;
-  margin-left: 242px;
   color: #333;
   border-bottom: 2px solid #FFBC00;
 }
@@ -355,8 +354,11 @@ td {
 }
 
 .footer {
-  background: #ffeab1;
+  background: #C89B00;
   width: 100%;
+}
+.foot-log {
+  padding-left: 30px;
 }
 .foot-nav {
   justify-content: space-evenly;
@@ -365,7 +367,7 @@ td {
   color: #8B8B8B;
 }
 .a-tx {
-  color: #8B8B8B;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -445,9 +447,7 @@ td {
   .side-bar {
       margin-right: 43px;
   }
-  .card-job5 {
-    margin-left: 152px;
-  }
+
   .footer {
     height: 180px;
   }
@@ -462,10 +462,6 @@ td {
   .lineup-card {
       width: 550px;
   }
-  .card-job5 {
-    margin-left: 52px;
-  }
-
 }
 
 @media screen and (max-width: 907px) {
@@ -525,9 +521,6 @@ td {
   }
 }
 @media screen and (max-width: 690px) {
-  .card-job5 {
-    margin-left: 22px;
-  }
 }
 @media screen and (max-width: 651px) {
   .qatx {
@@ -548,7 +541,7 @@ td {
 @media screen and (max-width: 573px) {
   .card-job5 {
     width: 380px;
-    margin: 0 60px;
+    margin: 35px 60px;
   }
   .footer {
     height: 290px;
@@ -564,22 +557,20 @@ td {
   .site-header {
     display: flex;
   }
+  .topnav-menu-item {
+    margin-left: 0;
+}
   .topnav-menu {
-    margin: 3px 36px;
+    margin: 3px 27px;
     margin-top: 0px;
     flex-direction: column;
     text-align: center;
   }
-  .card-job5 {
-    margin: 0px 0px;
-    
-  }
+  /*
   .top-main{
     padding-top: 310px;
   }
-  .topnav-menu-item {
-    margin-left: 0;
-}
+  */
 }
 
 @media screen and (max-width: 448px) {
@@ -587,8 +578,8 @@ td {
     padding: 5px 9px;
   }
   .card-job5 {
-    width: 380px;
-    margin: 0px auto;
+    width: 320px;
+    margin: 20px auto;
   }
 }
 @media screen and (max-width: 448px){

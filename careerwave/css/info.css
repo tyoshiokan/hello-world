@@ -67,9 +67,7 @@ Form {
     padding-top: 200px;
   }
   @media screen and (max-width: 480px) {
-    Form {
-      margin-top: 10px;
-    }
+
   }
   .Form-Item {
     border-top: 1px solid #ddd;
@@ -190,8 +188,8 @@ Form {
     width: 280px;
     display: block;
     letter-spacing: 0.05em;
-    background: #FFBC00;
-    color: #fff;
+    background: #fff;
+    color: #000;
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
@@ -431,7 +429,7 @@ Form {
     display: flex;
   }
   .topnav-menu {
-    margin: 3px 36px;
+    margin: 3px 27px;
     margin-top: 0px;
     flex-direction: column;
     text-align: center;
